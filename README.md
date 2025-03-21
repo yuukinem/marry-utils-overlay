@@ -11,15 +11,15 @@
 
 添加此 overlay 到你的 Gentoo 系统：
 
-\`\`\`
-eselect repository add marry-utils git https://github.com/你的用户名/marry-utils-overlay.git
+
+eselect repository add marry-utils https://github.com/yuukinem/marry-utils-overlay.git
 emerge --sync marry-utils
-\`\`\`
 
 ## 使用方法
 
-\`\`\`
+
 emerge --ask dev-libs/astal-io::marry-utils
+
 emerge --ask gui-libs/astal::marry-utils
-\`\`\`
+
 # marry-utils-overlay
