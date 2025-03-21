@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>example@example.com</email>
+		<name>Your Name</name>
+	</maintainer>
+	<use>
+		<flag name="gtk3">Enable building the GTK3 version</flag>
+		<flag name="gtk4">Enable building the GTK4 version</flag>
+	</use>
+</pkgmetadata> 
